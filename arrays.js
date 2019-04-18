@@ -6,3 +6,12 @@ var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
+
+var cities = ["New York", "San Francisco"]
+
+["Philadelphia", ...cities]
+cities
+
+function addElementToBeginningOfArray(array, element){
+  console.log(element, ...array);
+}
