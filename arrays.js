@@ -12,6 +12,7 @@ var cities = ["New York", "San Francisco"]
 ["Philadelphia", ...cities]
 cities
 
+var addElementToBeginningOfArray();
 function addElementToBeginningOfArray(array, element){
   console.log(element, ...array);
 }
